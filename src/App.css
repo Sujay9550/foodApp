@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Baloo 2", cursive;
+  /* background-image: linear-gradient(to bottom right, #ff512f, #dd2476);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; */
+}
+
+/* Utility Classes */
+
+.primary-badge {
+  background-color: rgb(232, 244, 253);
+  color: rgb(20, 139, 236);
+}
+
+.danger-badge {
+  background-color: rgb(255, 224, 231);
+  color: rgb(238, 65, 108);
+}
+
+.success-badge {
+  background-color: rgb(227, 255, 219);
+  color: rgb(63, 180, 27);
+}
+
+.secondary-badge {
+  background-color: rgb(245, 244, 244);
+  color: rgb(82, 85, 81);
+}

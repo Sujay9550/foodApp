@@ -1,0 +1,31 @@
+.food-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.food-title {
+  color: rgb(126, 123, 123);
+  font-size: 15px;
+  font-weight: 600;
+  margin: 6px;
+}
+
+.food-price {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 6px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 4px;
+}
+
+.add-to-cart-button {
+  width: 50px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgb(247, 180, 55);
+  color: #fff;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}

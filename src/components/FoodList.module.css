@@ -1,0 +1,21 @@
+.food-list-container {
+  animation: slide-up 1s ease-out forwards;
+}
+
+.food-image-container img {
+  width: 100%;
+  height: 312px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

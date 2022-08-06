@@ -1,0 +1,26 @@
+.pending {
+  background-image: linear-gradient(to right, #f2994a, #f2c94c);
+  color: #ffffff;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.success {
+  background-image: linear-gradient(to right, #56ab2f, #a8e063);
+  color: #ffffff;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.error {
+  background-image: linear-gradient(to right, #ff4b1f, #ff9068);
+  color: #ffffff;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 8px;
+  font-weight: 500;
+}

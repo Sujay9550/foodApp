@@ -1,0 +1,55 @@
+.menu-container {
+  animation: slide-right 1s ease-out forwards;
+}
+
+.menu-container img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.menu-container .pizza {
+  background-color: rgb(232, 244, 253);
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.menu-container .burger {
+  background-color: rgb(255, 236, 218);
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.menu-container .biryani {
+  background-color: rgb(245, 244, 244);
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.menu-container .wrap {
+  background-color: rgb(227, 255, 219);
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.menu-container .deserts {
+  background-color: rgb(255, 224, 231);
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.menu-container img:hover {
+  transform: translateY(5px);
+  transition: transform 0.3s;
+}
+
+@keyframes slide-right {
+  from {
+    opacity: 0;
+    transform: translateX(-30rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

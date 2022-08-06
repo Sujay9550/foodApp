@@ -1,0 +1,45 @@
+.main-navbar {
+  background: rgb(255, 244, 223);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(255, 244, 223 0.2),
+    0 6px 20px 0 rgba(255, 244, 223 0.19);
+}
+
+.main-navbar a {
+  color: rgb(245, 197, 109);
+}
+
+.main-navbar a:hover {
+  color: rgb(236, 166, 35);
+}
+
+.main-navbar .app-icon {
+  width: 45px;
+  height: 45px;
+  margin-right: 8px;
+}
+
+.main-navbar .menu-burger-button {
+  background: none;
+  border-radius: 5px;
+  padding: 6px;
+  box-shadow: none;
+}
+
+.main-navbar .menu-burger-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.main-navbar .shopping-cart-button {
+  background-color: rgb(245, 197, 109);
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.main-navbar .shopping-cart-icon {
+  width: 20px;
+  height: 20px;
+  margin: 4px;
+}
