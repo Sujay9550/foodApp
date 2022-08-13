@@ -4,6 +4,10 @@ This project was built using [React JS](https://reactjs.org) - a free and open-s
 
 ### Features
 
+- Food list - A list of food that has a `ADD` button to add food to the cart.
+- Cart - Displays the details related to the added food like (Image, Title, Quantity, Price, Total Price, Add & Remove buttons, Total Quantity, Total Amount, Close & Order Button)
+- Redux-Toolkit - App wide state management tool for maintaining the cart data.
+
 ### Available Scripts
 
 In the project directory, you can run:
@@ -24,3 +28,12 @@ The page will reload if you make edits.
 Builds the app for production to the `dist` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.<br>
 Your app is ready to be deployed!
+
+### Additional Setup
+
+Create a `.env` file in the root of your repository, and add `API_URL = YOUR FIREBASE API URL/cart.json`
+
+### Application Snapshots
+
+![foodapp-home](/snapshots/foodapp-home.PNG)
+![foodapp-cart](/snapshots/foodapp-cart.PNG)
