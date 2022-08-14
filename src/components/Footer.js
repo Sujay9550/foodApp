@@ -15,7 +15,7 @@ const Footer = () => {
               </span>
             </p>
             <p className={`${classes.credits} text-secondary mb-0`}>
-              Icons Credits -
+              Icons & Images Credits -
               <a
                 href="https://www.flaticon.com/icons"
                 target="_blank"
@@ -23,6 +23,14 @@ const Footer = () => {
               >
                 {" "}
                 Flaticon
+              </a>
+              <a
+                href="https://unsplash.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Unsplash
               </a>
             </p>
           </div>
