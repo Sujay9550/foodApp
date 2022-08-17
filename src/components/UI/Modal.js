@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import classes from "./Modal.module.css";
+import * as classes from "./Modal.module.css";
 
 const Backdrop = (props) => {
   return <div className={classes.cartbackdrop} onClick={props.onClose}></div>;

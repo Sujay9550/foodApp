@@ -7,7 +7,7 @@ import Biryani from "../icons/biryani.png";
 import Wrap from "../icons/wrap.png";
 import Deserts from "../icons/deserts.png";
 
-import classes from "./FoodListItem.module.css";
+import * as classes from "./FoodListItem.module.css";
 
 const FoodListItem = (props) => {
   let foodIcon;

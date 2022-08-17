@@ -2,7 +2,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import foodImage from "../img/food.jpg";
 
-import classes from "./FoodList.module.css";
+import * as classes from "./FoodList.module.css";
 
 import FoodListItem from "./FoodListItem";
 

@@ -5,7 +5,7 @@ import appIcon from "../icons/app-icon.png";
 import menuBurgerIcon from "../icons/menu-burger.png";
 import shoppingCartIcon from "../icons/shopping-cart.png";
 
-import classes from "./Navbar.module.css";
+import * as classes from "./Navbar.module.css";
 
 const Navbar = () => {
   const dispatch = useDispatch();

@@ -4,7 +4,7 @@ import Biryani from "../icons/biryani.png";
 import Wrap from "../icons/wrap.png";
 import Deserts from "../icons/deserts.png";
 
-import classes from "./FoodMenu.module.css";
+import * as classes from "./FoodMenu.module.css";
 
 const FoodMenu = () => {
   return (

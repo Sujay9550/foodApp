@@ -4,7 +4,7 @@ import { uiActions } from "../store/ui-slice";
 import Modal from "./UI/Modal";
 import CartItem from "./CartItem";
 import emptyCart from "../icons/cart.png";
-import classes from "./Cart.module.css";
+import * as classes from "./Cart.module.css";
 
 const Cart = (props) => {
   const dispatch = useDispatch();

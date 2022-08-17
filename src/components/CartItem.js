@@ -6,7 +6,7 @@ import Wrap from "../icons/wrap.png";
 import Deserts from "../icons/deserts.png";
 import { cartActions } from "../store/cart-slice";
 
-import classes from "./CartItem.module.css";
+import * as classes from "./CartItem.module.css";
 
 const CartItem = (props) => {
   let foodIcon;

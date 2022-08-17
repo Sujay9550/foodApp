@@ -2,7 +2,7 @@ import heroImage from "../img/hero.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
-import classes from "./Hero.module.css";
+import * as classes from "./Hero.module.css";
 
 const Hero = () => {
   return (
